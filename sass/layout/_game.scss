@@ -1,8 +1,13 @@
+.game {
+    padding-top: 50px;
+    
+} 
+
 .grid-1,
 .grid-2,
 .grid-3 {
-    display: flex;
-    justify-items: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .case-1,
@@ -14,7 +19,38 @@
 .case-7,
 .case-8,
 .case-9 {
-    border: 1px solid;
-    height: 150px;
-    width: 150px;
+  border: 0px solid;
+  border-radius: 10;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(254, 238, 255);
+}
+
+.case-1 {
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+.case-2 {
+    border-bottom: 2px solid;
+}
+.case-3 {
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+}
+.case-4 {
+    border-right: 2px solid;
+}
+.case-6 {
+    border-left: 2px solid;
+}
+.case-7 {
+    border-right: 2px solid;
+    border-top: 2px solid;
+}
+.case-8 {
+    border-top: 2px solid;
+}
+.case-9 {
+    border-left: 2px solid;
+    border-top: 2px solid;
 }
