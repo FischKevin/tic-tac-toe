@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -13,13 +14,12 @@ body {
 .header {
   background-color: none;
   color: white;
-  font-size: 5em;
+  font-size: 3em;
   font-family: sans-serif;
   opacity: 0.8;
   margin: auto;
   width: 60%;
   text-align: center;
-  text-shadow: sandybrown 2px 5px, white 3px 6px;
 }
 
 .game {
@@ -29,8 +29,12 @@ body {
 .grid-1,
 .grid-2,
 .grid-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .case-1,
@@ -85,5 +89,4 @@ body {
   border-left: 2px solid;
   border-top: 2px solid;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
