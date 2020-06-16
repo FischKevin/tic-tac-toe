@@ -1,0 +1,33 @@
+$main-font: 'Amatic SC', cursive; 
+$text-shadow-header: sandybrown 3px 6px, white 5px 7px;
+$text-shadow-game: sandybrown 1px 3px, white 2px 4px;
+
+.header,
+.player-0-name,
+.player-1-name,
+.player-0-score,
+.player-1-score {
+    font-family: $main-font;
+    color: white;
+    opacity: 0.9;
+    text-align: center;
+    text-shadow: $text-shadow-header;
+}
+
+.header {
+    font-size: 7em;
+    text-shadow: $text-shadow-header;
+}
+
+.player-0-name,
+.player-1-name,
+.player-0-score,
+.player-1-score {
+    text-shadow: $text-shadow-game;
+    font-size: 4em;
+}
+
+.player-0-score,
+.player-1-score {
+    padding-top: 50px;
+}

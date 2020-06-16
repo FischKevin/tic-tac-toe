@@ -10,20 +10,40 @@ body {
   background-size: cover;
 }
 
-.header {
-  background-color: none;
+.header,
+.player-0-name,
+.player-1-name,
+.player-0-score,
+.player-1-score {
+  font-family: "Amatic SC", cursive;
   color: white;
-  font-size: 5em;
-  font-family: sans-serif;
-  opacity: 0.8;
-  margin: auto;
-  width: 60%;
+  opacity: 0.9;
   text-align: center;
-  text-shadow: sandybrown 2px 5px, white 3px 6px;
+  text-shadow: sandybrown 3px 6px, white 5px 7px;
+}
+
+.header {
+  font-size: 7em;
+  text-shadow: sandybrown 3px 6px, white 5px 7px;
+}
+
+.player-0-name,
+.player-1-name,
+.player-0-score,
+.player-1-score {
+  text-shadow: sandybrown 1px 3px, white 2px 4px;
+  font-size: 4em;
+}
+
+.player-0-score,
+.player-1-score {
+  padding-top: 50px;
 }
 
 .game {
   padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .grid-1,
