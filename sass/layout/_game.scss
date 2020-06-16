@@ -20,8 +20,6 @@
 .case-7,
 .case-8,
 .case-9 {
-  border: 0px solid;
-  border-radius: 10;
   width: 150px;
   height: 150px;
   background-color: white;
@@ -29,30 +27,30 @@
 }
 
 .case-1 {
-    border-right: 2px solid;
-    border-bottom: 2px solid;
+    border-right: $border-board;
+    border-bottom: $border-board;
 }
 .case-2 {
-    border-bottom: 2px solid;
+    border-bottom: $border-board;
 }
 .case-3 {
-    border-left: 2px solid;
-    border-bottom: 2px solid;
+    border-left: $border-board;
+    border-bottom: $border-board;
 }
 .case-4 {
-    border-right: 2px solid;
+    border-right: $border-board;
 }
 .case-6 {
-    border-left: 2px solid;
+    border-left: $border-board;
 }
 .case-7 {
-    border-right: 2px solid;
-    border-top: 2px solid;
+    border-right: $border-board;
+    border-top: $border-board;
 }
 .case-8 {
-    border-top: 2px solid;
+    border-top: $border-board;
 }
 .case-9 {
-    border-left: 2px solid;
-    border-top: 2px solid;
+    border-left: $border-board;
+    border-top: $border-board;
 }
