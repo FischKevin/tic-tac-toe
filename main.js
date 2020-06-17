@@ -3,6 +3,10 @@ function init() {
 
 };
 
+function gameOver() {
+    
+}
+
 function nextPlayer() {
     if (activePlayer === 0) {
         activePlayer = 1;
