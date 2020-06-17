@@ -15,7 +15,7 @@ body {
 .player-1-name,
 .player-0-score,
 .player-1-score {
-  font-family: "Amatic SC", cursive;
+  font-family: "Architects Daughter", cursive;
   color: white;
   opacity: 0.9;
   text-align: center;
@@ -37,6 +37,23 @@ body {
 .player-0-score,
 .player-1-score {
   padding-top: 50px;
+}
+
+.case-1,
+.case-2,
+.case-3,
+.case-4,
+.case-5,
+.case-6,
+.case-7,
+.case-8,
+.case-9 {
+  font-family: "Architects Daughter", cursive;
+  font-size: 12em;
+  text-align: center;
+  line-height: 0.8em;
+  color: sandybrown;
+  text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.3), -1px -1px 0px rgba(0, 0, 0, 0.3), 1px -1px 0px rgba(0, 0, 0, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.3);
 }
 
 .game {

@@ -1,4 +1,4 @@
-$main-font: 'Amatic SC', cursive; 
+$main-font: 'Architects Daughter', cursive;
 $text-shadow-header: sandybrown 3px 6px, white 5px 7px;
 $text-shadow-game: sandybrown 1px 3px, white 2px 4px;
 
@@ -29,4 +29,25 @@ $text-shadow-game: sandybrown 1px 3px, white 2px 4px;
 .player-0-score,
 .player-1-score {
     padding-top: 50px;
+}
+
+.case-1,
+.case-2,
+.case-3,
+.case-4,
+.case-5,
+.case-6,
+.case-7,
+.case-8,
+.case-9 {
+    font-family: $main-font;
+    font-size: 12em;
+    text-align: center;
+    line-height: 0.8em;
+    color: sandybrown;
+    text-shadow: -1px 1px 0px rgb(0, 0, 0, 0.3),
+                -1px -1px 0px rgb(0, 0, 0, 0.3),
+                1px -1px 0px rgb(0, 0, 0, 0.3),
+                1px 1px 0px rgb(0, 0, 0, 0.3);
+
 }
