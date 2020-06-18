@@ -4,7 +4,7 @@ function init() {
 };
 
 function gameOver() {
-    
+    document.querySelector('.message').textContent='Game Over';
 }
 
 function nextPlayer() {
@@ -14,9 +14,25 @@ function nextPlayer() {
         activePlayer = 0;
     }
 
-    if ('.case-1' != '' && '.case-2' != '' && '.case-3' != '' && '.case-4' != '' && '.case-5' != '' && '.case-6' != '' && '.case-7' != '' && '.case-8' != '' && '.case-9' != '') {
+    let case1 = document.querySelector('.case-1').textContent;
+    let case2 = document.querySelector('.case-2').textContent;
+    let case3 = document.querySelector('.case-3').textContent;
+    let case4 = document.querySelector('.case-4').textContent;
+    let case5 = document.querySelector('.case-5').textContent;
+    let case6 = document.querySelector('.case-6').textContent;
+    let case7 = document.querySelector('.case-7').textContent;
+    let case8 = document.querySelector('.case-8').textContent;
+    let case9 = document.querySelector('.case-9').textContent;
+
+
+    if (case1 != '' && case2 != '' && case3 != '' && case4 != '' && case5 != '' && case6 != '' && case7 != '' && case8 != '' && case9 != '') {
      gameOver();   
     }
+
+    /*if ('.case-1' === 'O') {
+        gameOver();
+    } */
+
 };
 
 

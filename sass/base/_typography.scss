@@ -1,6 +1,8 @@
 $main-font: 'Architects Daughter', cursive;
-$text-shadow-header: sandybrown 3px 6px, white 5px 7px;
-$text-shadow-game: sandybrown 1px 3px, white 2px 4px;
+$main-color: sandybrown;
+$main-color-darker: #cf670e;
+$text-shadow-header: $main-color 3px 6px, white 5px 7px;
+$text-shadow-game: $main-color 1px 3px, white 2px 4px;
 
 .header,
 .player-0-name,
@@ -41,13 +43,9 @@ $text-shadow-game: sandybrown 1px 3px, white 2px 4px;
 .case-8,
 .case-9 {
     font-family: $main-font;
-    //vertical-align: top;
-    //padding-bottom: 30%;
     font-size: 7em;
-    //height: 500px;
     text-align: center;
-    //line-height: 0.8em;
-    color: sandybrown;
+    color: $main-color;
     text-shadow: -1px 1px 0px rgb(0, 0, 0, 0.3),
                 -1px -1px 0px rgb(0, 0, 0, 0.3),
                 1px -1px 0px rgb(0, 0, 0, 0.3),
@@ -55,3 +53,15 @@ $text-shadow-game: sandybrown 1px 3px, white 2px 4px;
 
 }
 
+.message {
+    position: absolute;
+    top: 40%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: $main-font;
+    font-size: 3em;
+    background-color: white;
+    padding: 0 20px;
+    color: $main-color-darker;
+}

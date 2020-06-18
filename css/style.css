@@ -55,6 +55,19 @@ body {
   text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.3), -1px -1px 0px rgba(0, 0, 0, 0.3), 1px -1px 0px rgba(0, 0, 0, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.3);
 }
 
+.message {
+  position: absolute;
+  top: 40%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Architects Daughter", cursive;
+  font-size: 3em;
+  background-color: white;
+  padding: 0 20px;
+  color: #cf670e;
+}
+
 .game {
   padding-top: 50px;
   display: flex;
